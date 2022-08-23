@@ -139,7 +139,7 @@ header {
   display: block;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 14ch;
+  width: 18ch;
 
   animation: typing 2s steps(14),blink .5s infinite step-end alternate; overflow: hidden
 
@@ -160,6 +160,9 @@ header {
   font-size: 1.5rem;
   text-align: center;
 }
+div .sepik img {
+  max-width: 50%; 
+}
 
 .angle-down-icon {
   position: absolute;
@@ -176,6 +179,7 @@ header {
   color: #ffffff;
   padding: 1rem;
 }
+
 
 /* ////........About Me........//// */
 
@@ -228,6 +232,8 @@ header {
 .about-content .right-content {
   flex-basis: 45%;
 }
+
+
 
 /* ///.....Skill Bar....../// */
 
