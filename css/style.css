@@ -17,7 +17,7 @@ header {
 
 .container {
   max-width: 1200px;
-  width: 90%;
+  width: 100%;
   margin: auto;
 }
 
@@ -134,12 +134,13 @@ header {
 }
 
 .home-content .name h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center;
   display: block;
   white-space: nowrap;
   border-right: 4px solid;
-  width: 19ch;
+  width: 18ch;
+  font-weight: 600;
 
   animation: typing 2s steps(14),blink .5s infinite step-end alternate; overflow: hidden
 
@@ -157,13 +158,13 @@ header {
 
 .home-content .name p {
   color:#ffffff;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   text-align: center;  
 }
 .home-content .name a p{
   color: #fff;
   text-decoration: none;
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 .home-content .name a p:hover{
   color:#77c7f9;
@@ -171,12 +172,6 @@ header {
 }
 .home-content .name a{
   text-decoration: none;
-}
-
-
-div .sepik img {
-  max-width: 45%; 
-  display: none;
 }
 
 .angle-down-icon {
@@ -242,7 +237,8 @@ div .sepik img {
 .about-me .about-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between
+  justify-content: space-between;
+  padding: 9.5% 0;
 }
 
 .about-content .left-content {
@@ -379,9 +375,6 @@ div .sepik img {
   color: #3867d6;
 }
 
-.work-arrow-2 {
-  margin: 2rem 0;
-}
 
 .work-arrow-2 a {
   font-size: 1rem;
@@ -425,9 +418,6 @@ div .sepik img {
   margin-right: 1.7rem;
 }
 
-.proj-2 .proj2-details {
-  width: 32rem;
-}
 
 .proj-2 .proj2-details i {
   font-size: 1.5rem;
@@ -478,12 +468,19 @@ div .sepik img {
   color: #f0f0e6;
 }
 .work-arrow-2 a {
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-decoration: none;
-  color: #3867d6;
+  color: #ffff;
   display: block;
   text-align: center;
+  background: linear-gradient(90deg, #1498EB 1.64%, #962DE3 100%);
+  padding: .5% 0;
 }
+.work-arrow-2 a:hover{
+  color: #3cdae6;
+  transition: .5s;
+}
+
 /* ////.....proj3.....//// */
 
 /* ////......Contact......///// */
@@ -504,7 +501,7 @@ div .sepik img {
 }
 
 .contact-content h4 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #ffffff;
   padding-bottom: 0.5rem;
@@ -541,7 +538,7 @@ a.gmail:hover{
   transition: .5s;
 }
 .redes{
-  font-size: 30px;
+  font-size: 25px;
 }
 .redes a:hover{
   color: #3cdae6;
@@ -609,7 +606,7 @@ a.gmail:hover{
   .work-arrow-2 a {
     font-size: 1.3rem;
     text-decoration: none;
-    color: #3867d6;
+    color: #fff;
     display: block;
     text-align: center;
   }
@@ -664,7 +661,7 @@ a.gmail:hover{
   .work-arrow-2 a {
     font-size: 1.3rem;
     text-decoration: none;
-    color: #3867d6;
+    color: #ffff;
     display: block;
     text-align: center;
   }
@@ -709,7 +706,7 @@ a.gmail:hover{
   .work-arrow-2 a {
     font-size: 1.3rem;
     text-decoration: none;
-    color:#3867d6;
+    color:#ffff;
     display: block;
     text-align: center;
   }
